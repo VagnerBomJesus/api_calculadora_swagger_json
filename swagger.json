@@ -1,0 +1,104 @@
+{
+    "swagger": "2.0",
+    "info": {
+      "title": "Calculadora",
+      "description": "API Calculadora com swagger Json",
+      "version": "1.0"
+    },
+    "host": "localhost:3333",
+    "basePath": "/",
+    "schemes": [
+      "http"
+    ],
+    "paths": {
+      "/soma/{num1}/{num2}": {
+          "get": {
+            "description": "Escolha dois números.",
+            "operationId": "SOMA",
+            "parameters": [
+              {
+                "name": "num1",
+                "in": "path",
+                "description": "Primeiro número. Valor default <code> 2</code>.",
+                "default": "2",
+                "required": true
+              },
+              {
+                "name": "num2",
+                "in": "path",
+                "description": "Segundo número. Valor default  <code>  2</code>.",
+                "default": "2",
+                "required": true
+              }
+            ],
+            "responses": {}
+          }
+      },
+      "/sub/{num1}/{num2}": {
+          "get": {
+          "operationId": "SUB",
+          "parameters": [
+            {
+              "name": "num1",
+              "in": "path",
+              "description": "Primeiro número. Valor default <code> 2</code>.",
+              "default": "2",
+              "required": true
+            },
+            {
+              "name": "num2",
+              "in": "path",
+              "description": "Segundo número. Valor default  <code>  2</code>.",
+              "default": "2",
+              "required": true
+            }
+          ],
+          "responses": {}
+          }
+      },
+      "/mult/{num1}/{num2}": { 
+          "get": {
+            "operationId": "MULT",
+            "parameters": [
+              {
+                "name": "num1",
+                "in": "path",
+                "description": "Primeiro número. Valor default <code> 2</code>.",
+                "default": "2",
+                "required": true
+              },
+              {
+                "name": "num2",
+                "in": "path",
+                "description": "Segundo número. Valor default  <code>  2</code>.",
+                "default": "2",
+                "required": true
+              }
+            ],
+            "responses": {}
+          }
+      },
+      "/div/{num1}/{num2}": {
+          "get": {
+            "operationId": "DIV",
+            "parameters": [
+              {
+                "name": "num1",
+                "in": "path",
+                "description": "Primeiro número. Valor default <code> 2</code>.",
+                "default": "2",
+                "required": true
+              },
+              {
+                "name": "num2",
+                "in": "path",
+                "description": "Segundo número. Valor default  <code>  2</code>.",
+                "default": "2",
+                "required": true
+              }
+            ],
+            "responses": {}
+          }
+    }
+  }   
+}
