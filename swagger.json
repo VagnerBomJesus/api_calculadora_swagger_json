@@ -11,8 +11,12 @@
       "http"
     ],
     "paths": {
+      
       "/soma/{num1}/{num2}": {
           "get": {
+            "tags": [
+              "SOMA"
+            ],
             "description": "Escolha dois números.",
             "operationId": "SOMA",
             "parameters": [
@@ -36,6 +40,9 @@
       },
       "/sub/{num1}/{num2}": {
           "get": {
+            "tags": [
+              "SUBTRAÇÃO"
+            ],
           "operationId": "SUB",
           "parameters": [
             {
@@ -58,6 +65,9 @@
       },
       "/mult/{num1}/{num2}": { 
           "get": {
+            "tags": [
+              "MULTIPLICAÇÃO"
+            ],
             "operationId": "MULT",
             "parameters": [
               {
@@ -80,6 +90,9 @@
       },
       "/div/{num1}/{num2}": {
           "get": {
+            "tags": [
+               "DIVISÃO"
+            ],
             "operationId": "DIV",
             "parameters": [
               {

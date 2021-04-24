@@ -10,8 +10,8 @@ app.use( '/api-calculadora',  swaggerUi.serve, swaggerUi.setup(swaggerDocument))
 //Rotas para acessar as operações
 require('./routes/routes')(app);
 
-app.listen(3333, () => {
-  console.log("server listening on port 3333");
+app.listen(8080, () => {
+  console.log("server listening on port 8080");
 });
 
 
