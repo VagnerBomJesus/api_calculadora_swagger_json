@@ -4,7 +4,10 @@
 
 <p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;
+  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-instalação-e-execução">Instalação e execução</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-estrutura-do-projeto">Estrutura do projeto</a>&nbsp;&nbsp;&nbsp;
+ </p> 
 
 <p align="center">
   <img alt="Api_Calculadora_Swagger_Json" src="https://miro.medium.com/max/700/1*LKlRf2l9p1dRPWZ2zg8TUg.png" width="100%">
