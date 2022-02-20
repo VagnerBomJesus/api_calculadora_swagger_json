@@ -9,6 +9,9 @@ app.use(cors());
 const swaggerUi = require('swagger-ui-express'),
 swaggerDocument = require('./swagger.json');
 
+app.get('/', function(req, res){
+  res.redirect('/api-calculadora');
+});
 
 app.use( '/api-calculadora',  swaggerUi.serve, swaggerUi.setup(swaggerDocument));
 
